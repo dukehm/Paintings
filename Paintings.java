@@ -15,12 +15,16 @@ public class Paintings {
             switch (name){
                 case "Degas":
                 case "degas":
+                case "DEGAS":
                 case "Monet":
                 case "monet":
+                case "MONET":
                 case "Picasso":
                 case "picasso":
+                case "PICASSO":
                 case "rembrandt":
                 case "Rembrandt":
+                case "REMBRANDT":
                     obj[i] = new FamousPainting(title,name);
                     break;
 
